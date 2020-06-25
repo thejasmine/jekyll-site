@@ -1,0 +1,164 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body {
+  background-color: #fff8f6;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+#products {
+  min-height: 250px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+
+
+
+
+.teal-text.text-bold-2 {
+  color: #f8e9e5 !important;
+  font-size:bold;
+}
+
+#bulletpoints {
+  padding:50px;
+}
+
+#title-text {
+  margin-top:5rem;
+  margin-right: 50rem;
+}
+
+.icon-list ul {
+  list-style-type: none;
+}
+
+.icon-list ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.icon-list li a {
+  color:#C9ADA7;
+  font-size: 32px;
+}
+
+.icon-list ul li:hover{
+  color: white;
+}
+
+.skill-icon img {
+  height: 50px;
+}
+
+/*.card {
+  background-color: #f8e9e5;
+}*/
+
+#footer-icon {
+  color:#5c4036;
+}
+
+.card .card-content {
+  padding:8px;
+}
+
+.card .card-title {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.activator {
+  margin-top:5px;
+}
+
+#submit-btn {
+  border: 4px solid #302f3a;
+  color: #302f3a;
+  position: relative;
+  /*margin: 2rem 3rem;*/
+  padding: 0.5rem 1rem;
+  font-size: 1.15rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#submit-btn::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -.6rem;
+  top: -.5rem;
+  z-index: -1;
+  background-color: #c8ada7;
+  transition: all 200ms ease-out;
+}
+
+#submit-btn:hover::before {
+  top: 0;
+  left: 0;
+}
+
+#submit-btn:active {
+  animation: twist 800ms infinite;
+}
+
+
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
